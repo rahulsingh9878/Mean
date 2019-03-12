@@ -41,6 +41,6 @@ axios.get('https://jsonplaceholder.typicode.com/users')
      </div>
  )
       }
-}
+} 
 export default Home
 
