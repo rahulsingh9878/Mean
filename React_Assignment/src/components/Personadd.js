@@ -26,8 +26,8 @@ class Personadd extends Component {
           <form onSubmit={this.handleSubmit}>
           <label htmlFor="name">Name</label>
           <input type="text" id="name" placeholder="Enter Your Full Name" onChange={this.handleChange} />
-          <label htmlFor="roll">RollNumber</label>
-          <input type="text" id="roll" placeholder="Enter Your RollNumber" onChange={this.handleChange}/>
+          <label htmlFor="roll">Roll Number</label>
+          <input type="text" id="roll" placeholder="Enter Your Roll Number" onChange={this.handleChange}/>
           <button> Add</button>
           </form>
       </div>
