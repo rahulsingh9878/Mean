@@ -3,7 +3,7 @@ import Personadd from './Personadd'
 import Screen from'./screenadd'
 class Person extends Component {
   state={
-    infos:[{id:1, name:'Pushkar', roll:'1610991656'}]
+    infos:[{id:1, name:'Rahul', roll:'1610991674'}]
 }
 add = (info) => { 
   info.id=Math.random();
